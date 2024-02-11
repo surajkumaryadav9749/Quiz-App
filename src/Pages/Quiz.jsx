@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Quiz.css";
 import { data } from ".././assets/data";
 
@@ -12,10 +12,10 @@ const Quiz = () => {
   let [score, setScore] = useState(0);
   let [result, setResult] = useState(false);
 
-  let option1 = useState(null);
-  let option2 = useState(null);
-  let option3 = useState(null);
-  let option4 = useState(null);
+  let option1 = useRef(null);
+  let option2 = useRef(null);
+  let option3 = useRef(null);
+  let option4 = useRef(null);
 
   let option_array = [option1, option2, option3, option4];
 
