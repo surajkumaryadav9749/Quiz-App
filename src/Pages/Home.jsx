@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <p className="btn-main">
           <span className="head-btn-quiz">Go To Quiz </span>
-          <Link to={"/quiz"}>
+          <Link to={"quiz"}>
             <span className="arrow-quiz">
               <FaArrowCircleRight />
             </span>
