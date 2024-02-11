@@ -1,0 +1,78 @@
+.Container{
+  width: 500px;
+  margin:auto;
+  margin-top: 70px;
+  background:white ;
+  color: #262626;
+  box-shadow: 0px 0px 10px 0px rgb(20, 20, 20);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px 30px; 
+
+   hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+   }
+   h2{
+
+    font-size: 25px;
+    font-weight: 500;
+  
+  }
+  ul{
+    
+    
+    li{
+     
+      align-items: center;
+      height: 30px;
+      padding-left: 15px;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0px 0px 4px 0px rgb(128, 123, 123);
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      
+    }
+  }
+  button{
+    box-shadow: 0px 0px 4px 0px rgb(128, 123, 123);
+    margin:auto;
+    width: 100px;
+    height: 35px;
+    background: #00A1EA;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .index{
+    margin: auto;
+    font-size: 18px;
+  }
+}
+
+.correct{
+  background: #dffff2;
+  border-color:#03f0ad ;
+}
+.wrong{
+  background: #FFEBEB;
+
+  border-color:#e82121 ;
+}
+.Tscore{
+  margin-right: 6px;
+}
+.score{
+  margin-right: 6px;
+}
